@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+img {
+  float: right;
+}
+    
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #ebd4d4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(195, 236, 187);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #171aec;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #e8e9c8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f18647;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f0d4d4;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #cdf1d1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(176, 163, 231);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f0e372;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>FaizanMedico</h1>
+  <h2>Sultan Ahmed On Bano Qabil Platform</h2>
+  <h3>My First Website</h3>
+</div>
+
+<div class="topnav">
+  <a href="#">Product</a>
+  <a href="#">Pricing</a>
+  <a href="#">Order</a>
+  <a href="#" style="float:right">Join Now</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Thank You Teacher,Muhammmad Khalid.  We are so grateful for everything you have done for us.</h2>
+      <h3>Your thoughtfulness is a gift!</h3>
+      <div class="fakeimg" style="height:200px;">A..with a positive mindset, just about anything is possible. Just believe that good things will happen, and things tend to fall into place.
+
+        <img src="b.png" alt="Pi" style="width:150px;height:150px;margin-left:15px;"></h2></div>
+      <p>Everyone has there own struggles, and most of us come out unscathed on the other side.</p>
+      <p>Dive deeper into this guide to discover how proper prioritization
+         can truly revolutionize the way you allocate your time and energy.
+
+        Your future, more efficient self will thank you for it.</p>
+    </div>
+    <div class="card">
+      <h2>What Is Focus and How Does It Work?</h2>
+      <h5>Focus Beats Adversity</h5>
+      <div class="fakeimg" style="height:200px;">There are things you can do right now to be happier in the future.<img src="c.png" alt="Pi" style="width:150px;height:150px;margin-left:15px;"></h2></div>
+      <img src="c.png" alt="Pi" style="width:150px;height:150px;margin-left:15px;">
+      <img src="c.png" alt="Pi" style="width:150px;height:150px;margin-left:15px;">
+      <p>5. Believe that you can change your thoughts.
+      </p>
+      <p>“Professional activity performed in a state of distraction-free
+        concentration that pushes your cognitive capabilities to their limit.
+        These efforts create new value, improve your skill, and are hard to
+        replicate”.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">I'm Sultan Ahmed student of Bano Qabil</div>
+      <p>Focus = Productivity</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>1 Remind yourself to think positively every day<img src="9.png" alt="Pi" style="width:170px;height:170px;margin-left:15px;"></p></div>
+      <div class="fakeimg"><p>3. Begin meditating and picturing nature in your mind
+      </p><img src="2.png" alt="Pi" style="width:170px;height:170px;margin-left:15px;"></div>
+      <div class="fakeimg"><p>4. Take time to do the things you like
+      </p></div>
+    </div>
+    <div class="card">
+      <img src="3.png" alt="Pi" style="width:100px;height:100px;margin-left:15px;">
+      <h3>Follow Me</h3>
+      
+      <p>faizanmedico@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <img src="1.png" alt="Pi" style="width:120px;height:120px;margin-left:15px;">
+  <h2>FaizanMedico</h2>
+  <h4>Sultan Ahmed On Bano Qabil Platform</h4>
+</div>
+
+</body>
+</html>
+
+
